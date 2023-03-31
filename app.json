@@ -1,13 +1,13 @@
 {
-    "name": "ZetsuMusic",
+    "name": "SurgaMusic",
     "description": "Streaming Panggilan Grup Telegram bot dengan beberapa fitur berguna, ditulis dengan Python dengan Pyrogram dan Py-Tgcalls. Platform pendukung seperti Tautan Youtube, Spotify, Resso, AppleMusic, Soundcloud, dan M3u8.",
-    "logo": "https://telegra.ph/file/b7377dbb15379573b68dd.jpg",
+    "logo": "https://telegra.ph/file/0386073f39d17962045cd.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Zetsu",
-    "ZetsuMusic",
+    "Surga",
+    "SurgaMusic",
     "telegram-bot",
     "pyrogram"
     ],
@@ -45,7 +45,7 @@
       },
       "OWNER_ID": {
         "description": "ID pengguna dari pengguna yang ingin Anda tambahkan sebagai PEMILIK. Beberapa nilai harus dipisahkan dengan spasi.",
-        "value": "1883676087",
+        "value": "1062711604",
         "required": true
       },
       "STRING_SESSION": {
@@ -70,7 +70,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "Jika Anda tidak tahu ini, biarkan apa adanya!",
-        "value": "https://github.com/damsyx/ZetsuMusic",
+        "value": "https://github.com/grupsurga/musicsurga",
         "required": true
       },
       "UPSTREAM_BRANCH": {
