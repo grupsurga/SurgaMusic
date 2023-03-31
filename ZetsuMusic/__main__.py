@@ -32,7 +32,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER("ZetsuMusic").error(
+        LOGGER("SurgaMusic").error(
             "Tidak Ada Asisten Klien yang Ditentukan Vars!.. Proses Keluar."
         )
         return
@@ -40,7 +40,7 @@ async def init():
         not config.SPOTIFY_CLIENT_ID
         and not config.SPOTIFY_CLIENT_SECRET
     ):
-        LOGGER("ZetsuMusic").warning(
+        LOGGER("SurgaMusic").warning(
             "Tidak ada Spotify Vars yang ditentukan.  Bot Anda tidak akan dapat memainkan kueri spotify."
         )
     try:
@@ -54,31 +54,31 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("ZetsuMusic.plugins" + all_module)
-    LOGGER("ZetsuMusic.plugins").info(
+        importlib.import_module("SurgaMusic.plugins" + all_module)
+    LOGGER("SurgaMusic.plugins").info(
         "Successfully Imported Modules "
     )
     await userbot.start()
-    await Zetsu.start()
-    zetsu = await app.get_me()
-    ZetsuMusic = zetsu.username
-    await userbot.one.send_message("himikosupportchat", f"@{ZetsuMusic}")
+    await Surga.start()
+    Surga = await app.get_me()
+    SurgaMusic = surga.username
+    await userbot.one.send_message("surgagrupbut", f"@{SurgaMusic}")
     try:
-        await Zetsu.stream_call(
+        await Surga.stream_call(
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
         )
     except NoActiveGroupCall:
-        LOGGER("ZetsuMusic").error(
+        LOGGER("SurgaMusic").error(
             "[ERROR] - \n\nHarap aktifkan Obrolan Suara Grup Logger Anda.  Pastikan Anda tidak pernah menutup/mengakhiri obrolan suara di grup log Anda"
         )
         sys.exit()
     except:
         pass
-    await Zetsu.decorators()
-    LOGGER("ZetsuMusic").info("Zetsu Music Bot Started Successfully!")
+    await Surga.decorators()
+    LOGGER("SurgaMusic").info("Surga Music Bot Started Successfully!")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("ZetsuMusic").info("Stopping ZetsuMusic! GoodBye")
+    LOGGER("SurgaMusic").info("Stopping SurgaMusic! GoodBye")
