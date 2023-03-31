@@ -1,8 +1,8 @@
-<img src="https://telegra.ph/file/6f85dc68c2c347ca763e3.jpg" align="center" width="300" height="200"/>
+<img src="https://telegra.ph/file/0386073f39d17962045cd.jpg" align="center" width="300" height="200"/>
 
-# Zetsu Music Bot <img src="https://img.shields.io/github/v/release/damsyx/ZetsuMusic?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
+# Surga Music Bot <img src="https://img.shields.io/github/v/release/grupsurga/musicsurga?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
 
-[Zetsu Music Bot](https://github.com/damsyx/ZetsuMusic) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
+[Surga Music Bot](https://github.com/grupsurga/musicsurga) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
 
 * Youtube, Soundcloud, Apple Music, Spotify, Resso, Live Streams and Telegram Audios & Videos support.
 * Written from scratch, making it stable and less crashes with attractive thumbnails.
@@ -12,7 +12,7 @@
 
 # ⚡️ Getting Started
 
-### Before deploying Zetsu Music Bot , please have a look towards [all available config vars](../config/README.md) , also please check [all available commands](../strings/command.yml) of the project.
+### Before deploying Surga Music Bot , please have a look towards [all available config vars](../config/README.md) , also please check [all available commands](../strings/command.yml) of the project.
 
 ## 🖇 Generating Pyrogram String Session
 
@@ -25,9 +25,9 @@
 <br>
 
 <h4>Click the button below to deploy Zetsu on Heroku!</h4>    
-<a href="https://heroku.com/deploy?template=https://github.com/damsyx/ZetsuMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
+<a href="https://heroku.com/deploy?template=https://github.com/grupsruga/musicsurga"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
 
-<h4>Click the button below to deploy Zetsu on bot Telegram!</h4>
+<h4>Click the button below to deploy Surga on bot Telegram!</h4>
 <a href="https://telegram.dog/XTZ_HerokuBot?start=ZGFtc3l4L1pldHN1TXVzaWMgbWFzdGVy"><img src="https://img.shields.io/badge/Deploy%20To%20Bot%20Telegram-blue?style=for-the-badge&logo=telegram" width="200""/></a>
 </details>
 
@@ -54,11 +54,11 @@ curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-ge
 ```
 - cloning repository
 ```sh
-git clone https://github.com/damsyx/ZetsuMusic
+git clone https://github.com/grupsurga/musicsurga
 ```
 - ubah direktori.
 ```sh
-cd ZetsuMusic
+cd musicsurga
 ```
 - install requirements
 ```sh
@@ -79,7 +79,7 @@ ctrl + s dan x
 ```
 - Buat Screen agar bot Aktif terus menerus 
 ```sh
-screen -S ZetsuMusic
+screen -S musicsurga
 ```
 - Mulai Jalanin Bot :
 ```sh
@@ -90,11 +90,11 @@ bash start
 
 ## 🗂 License
 
-This project is licensed under the **GNU General Public License v3**. All designs were created by [@xflsdam](https://github.com/damsyx) .
+This project is licensed under the **GNU General Public License v3**. All designs were created by [@damsyx](https://github.com/damsyx) .
 
 See [LICENSE](../LICENSE) for more information.
 
-Special thanks to these amazing projects/people which/who help power Zetsu Music Bot:
+Special thanks to these amazing projects/people which/who help power Surga Music Bot:
 
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 - [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
