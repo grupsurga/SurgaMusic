@@ -31,7 +31,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = SurgaBot()
+app = ZetsuBot()
 
 # Assistant Client
 userbot = Userbot()
