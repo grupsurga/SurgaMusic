@@ -60,7 +60,7 @@ async def init():
     )
     await userbot.start()
     await Zetsu.start()
-    Zetsu = await app.get_me()
+    zetsu = await app.get_me()
     ZetsuMusic = zetsu.username
     await userbot.one.send_message("surgagrupbut", f"@{ZetsuMusic}")
     try:
