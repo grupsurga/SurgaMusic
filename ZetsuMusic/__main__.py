@@ -54,17 +54,17 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("SurgaMusic.plugins" + all_module)
-    LOGGER("SurgaMusic.plugins").info(
+        importlib.import_module("ZetsuMusic.plugins" + all_module)
+    LOGGER("ZetsuMusic.plugins").info(
         "Successfully Imported Modules "
     )
     await userbot.start()
-    await Surga.start()
-    Surga = await app.get_me()
-    SurgaMusic = surga.username
-    await userbot.one.send_message("surgagrupbut", f"@{SurgaMusic}")
+    await Zetsu.start()
+    Zetsu = await app.get_me()
+    ZetsuMusic = zetsu.username
+    await userbot.one.send_message("surgagrupbut", f"@{ZetsuMusic}")
     try:
-        await Surga.stream_call(
+        await Zetsu.stream_call(
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
         )
     except NoActiveGroupCall:
