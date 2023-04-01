@@ -74,7 +74,7 @@ async def init():
         sys.exit()
     except:
         pass
-    await Surga.decorators()
+    await Zetsu.decorators()
     LOGGER("SurgaMusic").info("Surga Music Bot Started Successfully!")
     await idle()
 
